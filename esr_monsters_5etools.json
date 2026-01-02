@@ -1,0 +1,1024 @@
+{
+  "monster": [
+    {
+      "name": "Sombra Susurrante",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "aberration",
+        "tags": [
+          "shadow"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13
+        }
+      ],
+      "hp": {
+        "average": 18,
+        "formula": "4d6+4"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 30,
+        "canHover": true
+      },
+      "str": 6,
+      "dex": 16,
+      "con": 12,
+      "int": 8,
+      "wis": 12,
+      "cha": 14,
+      "cr": "1",
+      "resist": [
+        "necrotic",
+        "psychic",
+        "bludgeoning from nonmagical attacks",
+        "piercing from nonmagical attacks",
+        "slashing from nonmagical attacks"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "exhaustion"
+      ],
+      "senses": [
+        "darkvision 60 ft.",
+        "passive Perception 11"
+      ],
+      "languages": [
+        "understands Common but can't speak"
+      ],
+      "trait": [
+        {
+          "name": "Susurros Internos (Aura 10 ft.)",
+          "entries": [
+            "Una criatura que empiece su turno a 10 pies o menos de la sombra debe superar una TS de Sabiduría CD 12 o sufre 1d6 de daño psíquico y tiene desventaja en su próxima tirada de ataque antes del final de su siguiente turno."
+          ]
+        },
+        {
+          "name": "Forma Sombría",
+          "entries": [
+            "La sombra puede moverse a través de criaturas y objetos como si fueran terreno difícil. Recibe 5 de daño radiante si termina su turno dentro de un objeto."
+          ]
+        },
+        {
+          "name": "Imitación Profana",
+          "entries": [
+            "Al inicio de su turno, la sombra elige una criatura que pueda oírla a 30 pies. Esa criatura debe superar una TS de Carisma CD 12 o queda {@condition frightened} de la sombra hasta el final de su siguiente turno."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Toque del Vacío",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +5 al ataque, alcance 5 pies, un objetivo. Impacto: 7 (2d4 + 3) de daño necrótico."
+          ]
+        },
+        {
+          "name": "Grito Deformado (Recarga 5–6)",
+          "entries": [
+            "Cada criatura a 15 pies debe hacer una TS de Sabiduría CD 12. Si falla, sufre 2d6 de daño psíquico y queda {@condition frightened} durante 1 turno. Si tiene éxito, sufre la mitad del daño y no queda asustada."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "underground",
+        "ruins"
+      ]
+    },
+    {
+      "name": "Sombra Susurrante Menor",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "T"
+      ],
+      "type": {
+        "type": "aberration",
+        "tags": [
+          "shadow"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12
+        }
+      ],
+      "hp": {
+        "average": 12,
+        "formula": "3d6+3"
+      },
+      "speed": {
+        "walk": 20,
+        "fly": 30,
+        "canHover": true
+      },
+      "str": 4,
+      "dex": 14,
+      "con": 12,
+      "int": 6,
+      "wis": 10,
+      "cha": 12,
+      "cr": "1/2",
+      "resist": [
+        "necrotic",
+        "psychic",
+        "bludgeoning from nonmagical attacks",
+        "piercing from nonmagical attacks",
+        "slashing from nonmagical attacks"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "exhaustion"
+      ],
+      "senses": [
+        "darkvision 60 ft.",
+        "passive Perception 10"
+      ],
+      "languages": [
+        "—"
+      ],
+      "trait": [
+        {
+          "name": "Mini-Aura de Susurros (5 ft.)",
+          "entries": [
+            "Una criatura que empiece su turno a 5 pies o menos de la sombra debe superar una TS de Sabiduría CD 10 o sufre 1 de daño psíquico y tiene desventaja en su próxima tirada de habilidad antes del final de su siguiente turno."
+          ]
+        },
+        {
+          "name": "Imitación Instintiva",
+          "entries": [
+            "Al inicio de su turno, la sombra repite una palabra o frase breve con la voz de una criatura que haya escuchado. El objetivo debe superar una TS de Carisma CD 10 o no puede beneficiarse de ventaja hasta el final de su siguiente turno."
+          ]
+        },
+        {
+          "name": "Forma Etérea Débil",
+          "entries": [
+            "La sombra puede moverse a través de criaturas y objetos como si fueran terreno difícil. Si termina su turno dentro de un objeto, sufre 2 de daño radiante."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Toque de Eco",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +4 al ataque, alcance 5 pies, un objetivo. Impacto: 5 (1d6 + 2) de daño necrótico."
+          ]
+        },
+        {
+          "name": "Eco Lastimero (Recarga 6)",
+          "entries": [
+            "Cada criatura a 10 pies debe hacer una TS de Sabiduría CD 10. Si falla, sufre 1d4 de daño psíquico y tiene desventaja en su próxima tirada de iniciativa. Si tiene éxito, no sufre efecto."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "underground",
+        "ruins"
+      ]
+    },
+    {
+      "name": "Sombra Susurrante Atada",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "aberration",
+        "tags": [
+          "shadow"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12
+        }
+      ],
+      "hp": {
+        "average": 15,
+        "formula": "5d6-2"
+      },
+      "speed": {
+        "walk": 20,
+        "fly": 20,
+        "canHover": true
+      },
+      "str": 6,
+      "dex": 14,
+      "con": 10,
+      "int": 8,
+      "wis": 12,
+      "cha": 14,
+      "cr": "1",
+      "resist": [
+        "necrotic",
+        "psychic"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "exhaustion"
+      ],
+      "senses": [
+        "darkvision 60 ft.",
+        "passive Perception 11"
+      ],
+      "languages": [
+        "—"
+      ],
+      "trait": [
+        {
+          "name": "Atada al Nodo",
+          "entries": [
+            "La sombra está anclada a un nodo corrupto. No puede alejarse más de 30 pies de su nodo. Mientras esté a 10 pies o menos del nodo, tiene ventaja en las tiradas de ataque."
+          ]
+        },
+        {
+          "name": "Aura de Desesperación (10 ft.)",
+          "entries": [
+            "Una criatura que empiece su turno a 10 pies o menos debe superar una TS de Sabiduría CD 12 o tiene desventaja en su próxima tirada de ataque antes del final de su siguiente turno."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Toque Drenante",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +4 al ataque, alcance 5 pies, un objetivo. Impacto: 6 (1d6 + 3) de daño necrótico más 1d4 de daño psíquico."
+          ]
+        }
+      ],
+      "environment": [
+        "underground",
+        "ruins"
+      ]
+    },
+    {
+      "name": "Bestia Corrompida",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "aberration"
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 14
+        }
+      ],
+      "hp": {
+        "average": 34,
+        "formula": "4d10+12"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 16,
+      "int": 3,
+      "wis": 12,
+      "cha": 6,
+      "cr": "2",
+      "resist": [
+        "necrotic",
+        "bludgeoning from nonmagical attacks",
+        "piercing from nonmagical attacks",
+        "slashing from nonmagical attacks"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "senses": [
+        "darkvision 60 ft.",
+        "passive Perception 11"
+      ],
+      "languages": [
+        "—"
+      ],
+      "trait": [
+        {
+          "name": "Aullido Distorsionado (1/Descanso Largo)",
+          "entries": [
+            "Como acción adicional, la bestia aúlla. Cada criatura a 20 pies debe superar una TS de Sabiduría CD 13 o queda {@condition frightened} hasta el final de su siguiente turno. Una criatura que tenga éxito es inmune a este aullido durante 24 horas."
+          ]
+        },
+        {
+          "name": "Cuerpo Deformado",
+          "entries": [
+            "Los golpes críticos contra la bestia no infligen daño adicional (se tratan como impactos normales)."
+          ]
+        },
+        {
+          "name": "Ira Instintiva",
+          "entries": [
+            "Si una criatura daña a la bestia, la bestia tiene ventaja en su próximo ataque contra esa criatura antes del final de su siguiente turno."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiataque",
+          "entries": [
+            "La bestia hace dos ataques de Mordisco."
+          ]
+        },
+        {
+          "name": "Mordisco",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +5 al ataque, alcance 5 pies, un objetivo. Impacto: 10 (2d6 + 3) de daño perforante más 3 (1d6) de daño necrótico."
+          ]
+        },
+        {
+          "name": "Golpe Infecto (Recarga 5–6)",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +5 al ataque, alcance 5 pies, un objetivo. Impacto: 14 (3d6 + 3) de daño cortante y el objetivo debe superar una TS de Constitución CD 13 o tiene desventaja en su siguiente tirada de ataque."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "underground"
+      ]
+    },
+    {
+      "name": "Bestia Corrompida Mayor",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "aberration"
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 14
+        }
+      ],
+      "hp": {
+        "average": 60,
+        "formula": "8d8+24"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 18,
+      "dex": 12,
+      "con": 16,
+      "int": 3,
+      "wis": 12,
+      "cha": 6,
+      "cr": "3",
+      "resist": [
+        "necrotic",
+        "bludgeoning from nonmagical attacks",
+        "piercing from nonmagical attacks",
+        "slashing from nonmagical attacks"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "senses": [
+        "darkvision 60 ft.",
+        "passive Perception 11"
+      ],
+      "languages": [
+        "—"
+      ],
+      "trait": [
+        {
+          "name": "Cuerpo Deformado",
+          "entries": [
+            "La bestia tiene ventaja en tiradas para evitar ser derribada o empujada."
+          ]
+        },
+        {
+          "name": "Ojo de Corrupción",
+          "entries": [
+            "Una vez por turno, cuando la bestia impacta a una criatura, el objetivo debe superar una TS de Sabiduría CD 12 o queda {@condition frightened} de la bestia hasta el final de su siguiente turno. Si el objetivo ya está asustado, sufre 2 (1d4) de daño psíquico adicional."
+          ]
+        },
+        {
+          "name": "Sangre Corrupta",
+          "entries": [
+            "Cuando la bestia recibe daño cortante o perforante, cada criatura a 5 pies debe superar una TS de Constitución CD 12 o sufre 2 de daño necrótico."
+          ]
+        },
+        {
+          "name": "Instinto Frenético",
+          "entries": [
+            "Cuando la bestia cae a 30 PG o menos, entra en frenesí: gana una acción adicional de Ataque (solo un ataque) en cada uno de sus turnos y sus ataques infligen 2 de daño necrótico adicional."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiataque",
+          "entries": [
+            "La bestia hace dos ataques: Zarpa Retorcida y Mordida Infecta."
+          ]
+        },
+        {
+          "name": "Zarpa Retorcida",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +6 al ataque, alcance 5 pies, un objetivo. Impacto: 9 (1d8 + 4) de daño cortante más 2 (1d4) de daño necrótico."
+          ]
+        },
+        {
+          "name": "Mordida Infecta",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +6 al ataque, alcance 5 pies, un objetivo. Impacto: 11 (2d6 + 4) de daño perforante. El objetivo debe superar una TS de Constitución CD 13 o sufre una infección leve: –1 a Percepción y tiradas de Sabiduría durante 1 hora (se cura con un descanso corto o magia de curación)."
+          ]
+        },
+        {
+          "name": "Embate Descontrolado (Recarga 5–6)",
+          "entries": [
+            "La bestia embiste en línea recta 20 pies. Cada criatura en esa línea debe hacer una TS de Destreza CD 13. Si falla, sufre 12 (3d6) de daño contundente y queda {@condition prone}. Si tiene éxito, sufre la mitad del daño y no cae."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "underground"
+      ]
+    },
+    {
+      "name": "Siembro-Sombra",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "monstrosity"
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 15
+        }
+      ],
+      "hp": {
+        "average": 60,
+        "formula": "8d8+24"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 20
+      },
+      "str": 14,
+      "dex": 16,
+      "con": 16,
+      "int": 8,
+      "wis": 14,
+      "cha": 16,
+      "cr": "3",
+      "resist": [
+        "necrotic",
+        "psychic",
+        "piercing from nonmagical attacks"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "senses": [
+        "darkvision 60 ft.",
+        "passive Perception 12"
+      ],
+      "languages": [
+        "understands Common; speaks in blended whispers"
+      ],
+      "trait": [
+        {
+          "name": "Aura de Angustia (10 ft.)",
+          "entries": [
+            "Al inicio del turno de una criatura a 10 pies o menos, debe superar una TS de Sabiduría CD 13 o sufre 1d4 de daño psíquico y elige perder su acción adicional o su reacción ese turno."
+          ]
+        },
+        {
+          "name": "Fragmentos de Voz",
+          "entries": [
+            "Al inicio de cada turno del siembro-sombra, elige una criatura a 30 pies. Debe superar una TS de Carisma CD 13 o queda {@condition frightened} durante 1 turno."
+          ]
+        },
+        {
+          "name": "Nacido de las Raíces",
+          "entries": [
+            "El siembro-sombra ignora el terreno difícil creado por raíces y maleza."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiataque",
+          "entries": [
+            "El siembro-sombra hace dos ataques de Garra de Sombras."
+          ]
+        },
+        {
+          "name": "Garra de Sombras",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +5 al ataque, alcance 5 pies, un objetivo. Impacto: 8 (1d8 + 3) de daño cortante más 1d6 de daño necrótico."
+          ]
+        },
+        {
+          "name": "Raíz Atrapadora (Recarga 5–6)",
+          "entries": [
+            "Una criatura a 15 pies debe hacer una TS de Fuerza CD 14. Si falla, queda {@condition grappled} (escape CD 14) y sufre 2d6 de daño contundente."
+          ]
+        },
+        {
+          "name": "Drenaje Emocional",
+          "entries": [
+            "Una criatura {@condition grappled} por Raíz Atrapadora debe hacer una TS de Carisma CD 13. Si falla, sufre 2d6 de daño psíquico y tiene desventaja en su siguiente tirada de ataque; el siembro-sombra recupera 5 PG."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "underground",
+        "ruins"
+      ]
+    },
+    {
+      "name": "Cultista Delirante",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 12
+        }
+      ],
+      "hp": {
+        "average": 22,
+        "formula": "4d8+4"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 10,
+      "dex": 14,
+      "con": 12,
+      "int": 8,
+      "wis": 10,
+      "cha": 14,
+      "cr": "1",
+      "resist": [
+        "psychic"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "skills": {
+        "deception": "+4",
+        "religion": "+1"
+      },
+      "save": {
+        "wis": "+2"
+      },
+      "senses": [
+        "passive Perception 10"
+      ],
+      "languages": [
+        "Common"
+      ],
+      "trait": [
+        {
+          "name": "Devoción Desquiciada",
+          "entries": [
+            "El cultista tiene ventaja en TS de Sabiduría contra {@condition frightened} y {@condition charmed}. La primera vez que cae por debajo de la mitad de sus PG, gana +2 al daño hasta el final del combate."
+          ]
+        },
+        {
+          "name": "Susurros del Fragmento",
+          "entries": [
+            "Una vez por turno, si el cultista falla un ataque, puede elegir una criatura a 10 pies. Debe superar una TS de Sabiduría CD 12 o sufre 2 de daño psíquico y tiene desventaja en su siguiente tirada de ataque."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Daga Retorcida",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo o a distancia: +4 al ataque, alcance 5 pies o alcance 20/60 pies, un objetivo. Impacto: 6 (1d4 + 4) de daño perforante más 1d4 de daño psíquico."
+          ]
+        },
+        {
+          "name": "Palabra Prohibida (Recarga 5–6)",
+          "entries": [
+            "Cada criatura a 10 pies debe hacer una TS de Sabiduría CD 12. Si falla, sufre 1d6 de daño psíquico y queda {@condition frightened} durante 1 turno. Si al menos una criatura falla, el cultista obtiene ventaja en su próximo ataque."
+          ]
+        }
+      ],
+      "environment": [
+        "urban",
+        "ruins",
+        "underground"
+      ]
+    },
+    {
+      "name": "Criatura de Furia",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "elemental",
+        "tags": [
+          "fire",
+          "corruption"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 14
+        }
+      ],
+      "hp": {
+        "average": 52,
+        "formula": "7d8+21"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 20
+      },
+      "str": 16,
+      "dex": 14,
+      "con": 16,
+      "int": 6,
+      "wis": 12,
+      "cha": 10,
+      "cr": "3",
+      "resist": [
+        "fire",
+        "necrotic",
+        "bludgeoning from nonmagical attacks",
+        "piercing from nonmagical attacks",
+        "slashing from nonmagical attacks"
+      ],
+      "vulnerable": [
+        "cold"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "senses": [
+        "darkvision 60 ft.",
+        "passive Perception 11"
+      ],
+      "languages": [
+        "—"
+      ],
+      "trait": [
+        {
+          "name": "Aura de Furia (10 ft.)",
+          "entries": [
+            "Una criatura que empiece su turno a 10 pies o menos debe superar una TS de Sabiduría CD 12 o sufre 1d4 de daño de fuego y, en su siguiente turno, debe usar su acción para atacar a una criatura al alcance si es posible."
+          ]
+        },
+        {
+          "name": "Cuerpo Incandescente",
+          "entries": [
+            "Una criatura que impacte con un ataque cuerpo a cuerpo sufre 2 de daño de fuego."
+          ]
+        },
+        {
+          "name": "Furia Aumentada",
+          "entries": [
+            "La primera vez que la criatura cae a 25 PG o menos, gana +2 al daño, su velocidad aumenta a 40 pies, y sus ataques infligen 2 de daño de fuego adicional."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiataque",
+          "entries": [
+            "La criatura hace dos ataques: Garra Ardiente y Mordisco Ígneo."
+          ]
+        },
+        {
+          "name": "Garra Ardiente",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +5 al ataque, alcance 5 pies, un objetivo. Impacto: 8 (1d6 + 3) de daño cortante más 4 (1d8) de daño de fuego."
+          ]
+        },
+        {
+          "name": "Mordisco Ígneo",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +5 al ataque, alcance 5 pies, un objetivo. Impacto: 10 (2d6 + 3) de daño perforante más 3 (1d6) de daño de fuego."
+          ]
+        },
+        {
+          "name": "Explosión de Llamas (Recarga 5–6)",
+          "entries": [
+            "Cada criatura a 10 pies debe hacer una TS de Destreza CD 13. Si falla, sufre 3d6 de daño de fuego y tiene desventaja en su siguiente tirada de ataque. Si tiene éxito, sufre la mitad del daño y no tiene desventaja."
+          ]
+        }
+      ],
+      "environment": [
+        "mountain",
+        "underground",
+        "wasteland"
+      ]
+    },
+    {
+      "name": "Rastreador Ahogado",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "undead"
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 11
+        }
+      ],
+      "hp": {
+        "average": 22,
+        "formula": "4d8+4"
+      },
+      "speed": {
+        "walk": 20,
+        "climb": 20
+      },
+      "str": 14,
+      "dex": 10,
+      "con": 12,
+      "int": 5,
+      "wis": 10,
+      "cha": 6,
+      "cr": "1",
+      "resist": [
+        "necrotic"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "senses": [
+        "darkvision 60 ft.",
+        "passive Perception 10"
+      ],
+      "languages": [
+        "—"
+      ],
+      "trait": [
+        {
+          "name": "Trepador del Pozo",
+          "entries": [
+            "El rastreador ahogado tiene ventaja en pruebas de Trepar y no necesita manos libres para trepar."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Zarpazo",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +4 al ataque, alcance 5 pies, un objetivo. Impacto: 5 (1d6 + 2) de daño cortante."
+          ]
+        },
+        {
+          "name": "Aliento Pútrido (1/Día)",
+          "entries": [
+            "Cada criatura en un cono de 15 pies debe hacer una TS de Constitución CD 12. Si falla, queda {@condition poisoned} durante 1 turno y sufre 1d6 de daño necrótico. Si tiene éxito, sufre la mitad del daño y no queda envenenada."
+          ]
+        }
+      ],
+      "environment": [
+        "underground",
+        "swamp",
+        "ruins"
+      ]
+    },
+    {
+      "name": "Engendro de Raíz Negra",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "aberration",
+        "tags": [
+          "plantlike"
+        ]
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13
+        }
+      ],
+      "hp": {
+        "average": 19,
+        "formula": "3d8+6"
+      },
+      "speed": {
+        "walk": 30,
+        "climb": 20
+      },
+      "str": 12,
+      "dex": 14,
+      "con": 14,
+      "int": 2,
+      "wis": 10,
+      "cha": 5,
+      "cr": "1",
+      "resist": [
+        "necrotic"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "conditionImmune": [
+        "charmed"
+      ],
+      "senses": [
+        "blindsight 10 ft.",
+        "darkvision 60 ft.",
+        "passive Perception 10"
+      ],
+      "languages": [
+        "—"
+      ],
+      "trait": [
+        {
+          "name": "Masa de Raíces",
+          "entries": [
+            "El engendro tiene ventaja en pruebas para mantener un agarre y puede trepar por superficies de tierra o raíces sin penalización."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Aguijón",
+          "entries": [
+            "Ataque de arma cuerpo a cuerpo: +4 al ataque, alcance 5 pies, un objetivo. Impacto: 6 (1d6 + 2) de daño perforante más 1d4 de daño necrótico."
+          ]
+        },
+        {
+          "name": "Enredo Viscoso",
+          "entries": [
+            "Como acción adicional, el engendro intenta agarrar a una criatura a 5 pies. El objetivo debe superar una TS de Fuerza CD 11 o queda {@condition grappled} (escape CD 11)."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "underground"
+      ]
+    },
+    {
+      "name": "Corazón de la Madriguera",
+      "source": "ESR",
+      "page": 0,
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "aberration"
+      },
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13
+        }
+      ],
+      "hp": {
+        "average": 45,
+        "formula": "6d10+12"
+      },
+      "speed": {
+        "walk": 0
+      },
+      "str": 18,
+      "dex": 6,
+      "con": 14,
+      "int": 5,
+      "wis": 12,
+      "cha": 10,
+      "cr": "2",
+      "resist": [
+        "necrotic",
+        "psychic"
+      ],
+      "vulnerable": [
+        "radiant"
+      ],
+      "conditionImmune": [
+        "prone",
+        "charmed",
+        "frightened",
+        "poisoned"
+      ],
+      "senses": [
+        "blindsight 60 ft. (blind beyond this radius)",
+        "passive Perception 11"
+      ],
+      "languages": [
+        "—"
+      ],
+      "trait": [
+        {
+          "name": "Inmóvil",
+          "entries": [
+            "El corazón no puede moverse y falla automáticamente las TS de Destreza."
+          ]
+        },
+        {
+          "name": "Generación de Engendros",
+          "entries": [
+            "Mientras el corazón esté vivo, al final de cada 2 turnos (iniciativa del DM), invoca un {@creature Engendro de Raíz Negra|ESR} en un espacio desocupado a 20 pies."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Latido Morboso",
+          "entries": [
+            "Cada criatura a 15 pies debe hacer una TS de Constitución CD 13. Si falla, sufre 2d6 de daño necrótico. Si tiene éxito, sufre la mitad."
+          ]
+        }
+      ],
+      "environment": [
+        "underground",
+        "ruins"
+      ]
+    }
+  ]
+}
